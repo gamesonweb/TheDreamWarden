@@ -60,16 +60,13 @@ export class Personnage {
         });
 
         this.scene.onBeforeRenderObservable.add(() => {
-            if (this.health <= 0 && !this.isDead) this.die();
-        });
-
-        this.scene.onBeforeRenderObservable.add(() => {
             let moveDirection = BABYLON.Vector3.Zero();
             let angle = null;
 
-            const z = keysPressed["z"] || keysPressed["ArrowUp"];
+            // Gestion des touches AZERTY et QWERTY
+            const z = keysPressed["z"] || keysPressed["ArrowUp"] || keysPressed["w"];
             const s = keysPressed["s"] || keysPressed["ArrowDown"];
-            const q = keysPressed["q"] || keysPressed["ArrowLeft"];
+            const q = keysPressed["q"] || keysPressed["ArrowLeft"] || keysPressed["a"];
             const d = keysPressed["d"] || keysPressed["ArrowRight"];
 
             if (z && d) {
