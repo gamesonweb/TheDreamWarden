@@ -108,7 +108,7 @@ export class SceneWelcome {
  
         // Liste des commandes
         this.commandsText = new BABYLON.GUI.TextBlock();
-        this.commandsText.text = "- Déplacement : ZQSD ou flèches\n\n- Tir : clic gauche\n\n - Sprint : touche maj";
+        this.commandsText.text = "- Déplacement : ZQSD, WASD ou flèches\n\n- Tir : clic gauche\n\n - Sprint : touche maj";
         this.commandsText.color = "white";
         this.commandsText.fontSize = 20;
         this.commandsText.top = "-10%";
@@ -220,3 +220,4 @@ export class SceneWelcome {
     }
     
 }
+
