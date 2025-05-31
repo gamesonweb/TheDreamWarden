@@ -3,6 +3,7 @@
 Projet : The DreamWarden 
 
 Synopsis : 
+DreamWarden est un jeu scénaristique. Prenez le temps de bien lire les dialogues et de vous plongez dans l'ambiance.
 Vous incarnez un étrange personnage, dans un monde nouveau. Accompagné d'une lanterne qui parle, vous allez devoir libérer le monde des rêves des cauchemars qui le hantent, pour permettre aux enfants de rêver à nouveau. 
 
 Commandes : 
